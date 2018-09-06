@@ -1,4 +1,6 @@
 # Study Advisor - test
+## Setup
+  - tbc
 ## Guidelines
   - Fork this repository
   - You can add any framework, library or plugin you'd like
@@ -8,8 +10,9 @@
   - Add a short description on how to run your program in the Setup section above
   - Check the finished features in the Assignment and Bonus section by putting an 'X' ([X]) in between the brackets
   - Quality over quantity, better half of the features 100% done, than 100% of the features half-done
-  - Assignment
+  - Assignment :
   - You are asked to build a simple bug-tracking system from scratch, with following specifications.
+  - The repository should be live using the hosting site of your pleasing.
 
 ## User
    - [ ] A user can log in with a valid username and password through a login screen
