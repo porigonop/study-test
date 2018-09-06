@@ -3,7 +3,7 @@
 <% @bugs.each do |bug| %>
   <li>
   <div>
-    <p><a href="bug"<%bug.id.to_s %>><%= bug.title %></p></a>
+    <p><a href="bug<%= bug.id.to_s %>"><%= bug.title %></p></a>
     <p><%= bug.description %></p>
   </div>
   </li>
