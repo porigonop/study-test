@@ -11,8 +11,8 @@
   - Check the finished features in the Assignment and Bonus section by putting an 'X' ([X]) in between the brackets
   - Quality over quantity, better half of the features 100% done, than 100% of the features half-done
   - Assignment :
-  -- You are asked to build a simple bug-tracking system from scratch, with following specifications.
-  -- The repository should be live using the hosting site of your pleasing.
+    - You are asked to build a simple bug-tracking system from scratch, with following specifications.
+    - The repository should be live using the hosting site of your pleasing.
 
 ## User
    - [ ] A user can log in with a valid username and password through a login screen
