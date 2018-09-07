@@ -1,7 +1,7 @@
 # Study Advisor - test
 ## Setup
   - Ruby -v # 2.3.0
-  - rails -v # 2.4.2
+  - rails -v # 4.2.6
   - bundle install # for bcrypt (encrytion of password)
 ## Guidelines
   - Fork this repository
