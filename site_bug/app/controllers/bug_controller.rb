@@ -4,11 +4,11 @@ class BugController < ApplicationController
     @bugs = Bug.all
   end
   def new
-      Bug.create title: params[:title],
-        description:params[:description],
+      Bug.create title: params[:bug][:title],
+        description: params[:bug][:description],
         owner_id: "tbc",
-        state:0
-      redirect_to '/bugs'
+        state: 0
+      redirect_to bugs_path
   end
   def create
   end

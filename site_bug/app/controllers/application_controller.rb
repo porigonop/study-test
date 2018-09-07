@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
   include SessionsHelper
   protected
   def confirm_logged_in
-    if !session[:id]
+    if !session[:user_id]
       redirect_to login_path
       return false
     else

@@ -1,15 +1,13 @@
 Rails.application.routes.draw do
 
-  get 'bugs' => 'bug#index'
-  get 'bug:id' => 'bug#show'
-  get 'create' => 'bug#create'
-  post 'create' => 'bug#new'
+  get 'bugs' => 'bug#index', as: 'bugs'
+  get 'bug/:id' => 'bug#show', as: 'bug'
+  get 'create' => 'bug#create', as: 'create_bug'
+  post 'create' => 'bug#new', as: 'send_bug'
 
-  get 'login' => 'sessions#new'
+  get 'login' => 'sessions#new', as: 'login'
   post 'login' => 'sessions#connect'
   post 'logout' => 'sessions#logout'
-
-  get 'pages/home'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

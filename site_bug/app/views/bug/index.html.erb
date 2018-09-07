@@ -3,8 +3,8 @@
 <% @bugs.each do |bug| %>
   <li>
   <div>
-    <p><a href="bug<%= bug.id.to_s %>"><%= bug.title %></p></a>
-    <p><%= bug.description %></p>
+    <p> <%= link_to bug.title, bug_path(bug.id) %> <p>
+    <p> <%= bug.description %></p>
   </div>
   </li>
 <% end %>
