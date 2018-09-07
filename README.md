@@ -1,6 +1,8 @@
 # Study Advisor - test
 ## Setup
-  - tbc
+  - Ruby -v # 2.3.0
+  - rails -v # 2.4.2
+  - bundle install # for bcrypt (encrytion of password)
 ## Guidelines
   - Fork this repository
   - You can add any framework, library or plugin you'd like
@@ -20,12 +22,12 @@
    - [X] A user can get an overview of all bugs on an overview page
 ## Bug
    - [X] A bug has a title and description
-   - [W] A bug has a user as its owner, and can be assigned to the same or other users
+   - [X] A bug has a user as its owner, and can be assigned to the same or other users
    - [X] A bug can have a state (eg. open, assigned, closed)
 ## Bonus
   Some nice to haves, when there is time to spare.
 
-   - [ ] Add inline validation (without page refresh) to the login form
+   - [X] Add inline validation (without page refresh) to the login form
    - [ ] A bug can have a severity level (eg. trivial, low, medium, high, critical)
    - [ ] Add roles (eg. admin, dev, support)
    - [ ] A user with admin role can add/remove users
