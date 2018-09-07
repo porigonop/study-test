@@ -1,10 +1,13 @@
 Rails.application.routes.draw do
+
   get 'bugs' => 'bug#index'
   get 'bug:id' => 'bug#show'
   get 'create' => 'bug#create'
   post 'create' => 'bug#new'
 
-  get 'user/index'
+  get 'login' => 'sessions#new'
+  post 'login' => 'sessions#connect'
+  post 'logout' => 'sessions#logout'
 
   get 'pages/home'
 
