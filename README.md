@@ -20,7 +20,7 @@
    - [X] A user can get an overview of all bugs on an overview page
 ## Bug
    - [X] A bug has a title and description
-   - [ ] A bug has a user as its owner, and can be assigned to the same or other users
+   - [W] A bug has a user as its owner, and can be assigned to the same or other users
    - [X] A bug can have a state (eg. open, assigned, closed)
 ## Bonus
   Some nice to haves, when there is time to spare.

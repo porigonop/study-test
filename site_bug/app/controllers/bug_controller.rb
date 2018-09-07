@@ -6,7 +6,7 @@ class BugController < ApplicationController
   def new
       Bug.create title: params[:bug][:title],
         description: params[:bug][:description],
-        owner_id: "tbc",
+        owner_id: current_user.id,
         state: 0
       redirect_to bugs_path
   end
