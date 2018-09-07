@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 
   get 'login' => 'sessions#new', as: 'login'
   post 'login' => 'sessions#connect'
-  post 'logout' => 'sessions#logout'
+  delete 'logout' => 'sessions#logout', as: 'logout'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

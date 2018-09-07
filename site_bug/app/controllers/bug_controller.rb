@@ -4,12 +4,13 @@ class BugController < ApplicationController
     @bugs = Bug.all
   end
   def new
-      bug = Bug.create title: params[:bug][:title],
-        description: params[:bug][:description],
-        owner_id: current_user.id,
-        state: 0
-      bug.user << User.find_by(username:params[:bug][:assigned_to])
-      redirect_to bugs_path
+    puts params
+    bug = Bug.create title: params[:bug][:title],
+      description: params[:bug][:description],
+      owner_id: current_user.id,
+      state: 0
+    bug.user << User.find(params[:bug][:assigned_to])
+    redirect_to bugs_path
   end
   def create
     @users = User.all
