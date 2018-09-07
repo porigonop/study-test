@@ -15,9 +15,9 @@
     - The repository should be live using the hosting site of your pleasing. (e.g. Heroku)
 
 ## User
-   - [ ] A user can log in with a valid username and password through a login screen
-   - [ ] A user can create bugs in a form
-   - [ ] A user can get an overview of all bugs on an overview page
+   - [X] A user can log in with a valid username and password through a login screen
+   - [X] A user can create bugs in a form
+   - [X] A user can get an overview of all bugs on an overview page
 ## Bug
    - [X] A bug has a title and description
    - [ ] A bug has a user as its owner, and can be assigned to the same or other users
