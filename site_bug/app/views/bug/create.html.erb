@@ -1,6 +1,11 @@
+<h1> Report a bug </h1>
 <%= form_tag "/create", method: "post" do %>
+  <p> title
   <input type="text" name="title"/>
+  </p>
+  <p> description
   <input type="text" name="description"/>
+  </p>
   <input type="submit" name="add a bug"/>
 <% end %>
 
